@@ -1,0 +1,215 @@
+
+.container3{
+    background-color: rgba(128, 128, 128, 0.26);
+    margin: auto;
+    position: relative;
+}
+.container3 h3{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+ul li{
+    margin: 10px;
+}
+button{
+    padding: 12px 10px;
+    background: black;
+    font-weight: 600;
+    color: yellow;
+    font-size: 15px;
+}
+.l1{
+    text-align:left;
+}
+.r1{
+    margin: 10px;
+    position: relative;
+}
+h1{
+    font-family: 'Delicious Handrawn';
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.s-circle img{
+    width: 50px;
+    border: 1px solid gold;
+    border-radius: 50%;
+    display: block;
+}
+.box{
+    border: 1px solid yellow;
+    height: 350px;
+    width: 700px;
+    position: relative;
+
+}
+.l2{
+    margin: 10px;
+    background: gainsboro;
+}
+.l2 p{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: oblique;
+    color: grey;
+    
+}
+.r2{
+    margin:10px;
+}
+.r2 p{
+    padding-right: 10px;
+    text-align: end;
+    font-size: 20px;font-weight: 800;
+    font-style: oblique;
+    color: grey;
+}
+.pos-abs{
+    position: absolute;
+    top: 70px;
+    left: 250px;
+}
+.pos-abs1{
+    position: absolute;
+    top: 170px;
+    left: 340px;
+}
+.cir{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    background: white;
+    margin: 0px;
+    color: yellow;
+
+}
+.c-yellow{
+    color: yellow;
+    margin-left: 10px;
+}
+.r3{
+    max-width: 300px;
+}
+.r3 p{
+    letter-spacing: 1px;
+    margin-top: 0;
+
+}
+.r3 h3{
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+span{
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.bg-yw{
+    /* border-top:50px solid yellow;
+    /* border-bottom:50px solid red;      */
+    border-left:950px solid white;
+    border-right:950px solid white;
+    /* padding: 5px; */
+    max-width: 80%; 
+}
+.fa-user-ninja:before {
+    /* content: "\f504"; */
+    margin-top: 30px;
+}
+.grey{
+    background-color: gray;
+    padding: 3px;
+    border-radius: 20%;
+}
+.green{
+    background-color: green;
+    padding: 3px;
+    border-radius: 20%;
+}
+.red{
+    background-color: red;
+    padding: 3px;
+    border-radius: 20%;
+}
+.test h3{
+    font-size: 45px;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-decoration: underline;
+    font-style: italic;
+}
+.test p{
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.contain{
+    background-color: yellow;
+}
+.contain1{
+    padding: 10px 10px;
+}
+.yellow-inclined{
+    border:3px solid yellow;
+    transform: rotate(-10deg);
+    transform: rotateX('15angle');
+    
+}
+.container2-1::before{
+    content: " ";
+    margin-top: 0;
+    bottom: -200px;
+    left: -20px;
+    position: absolute;
+    border-top: 100px rgb(255, 230, 0) solid;
+    border-right: 50vw transparent solid;
+    border-left: 50vw solid transparent;
+    border-bottom: 100px transparent solid;
+    /* margin-bottom: 50px; */
+}
+.container{
+    margin-top:60px ;
+}
+.inc-bag::after{
+    content: " ";
+    position: absolute;
+    /* width:100%;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.26); */
+    border-left:100vw transparent solid;
+    border-right: 100vw yellow transparent;
+    border-top: 120px transparent solid;
+    border-bottom: 100px  rgba(128, 128, 128, 0.26) solid;
+    left: -17px;
+    top: -220px;
+}
+.inc-bag1::after{
+    content: " ";
+    position: absolute;
+    /* width:100%;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.26); */
+    /* transform:rotate(5deg); */
+    border-left:100vw transparent solid  ;
+    border-right: 100vw yellow transparent;
+    border-top: 120px rgba(128, 128, 128, 0.26) solid;
+    border-bottom: 100px aqua transparent;
+    top: 496px;
+    left:-18px;
+
+}
+.pt{
+    padding-top: 100px;
+}
+.pb{
+    padding-bottom: 100px;
+}

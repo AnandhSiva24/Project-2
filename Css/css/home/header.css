@@ -1,0 +1,57 @@
+.header{
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+
+}
+/* .navbar{
+    position: fixed;
+    max-width: 1280px;
+} */
+.mx-w1{
+    max-width: 1350px;
+    margin: auto;
+}
+.icon{
+    font-size: 50px;
+    text-align: center;
+    margin-left: 15px;
+}
+.right h4{
+    font-family: 'Delicious Handrawn';
+}
+.logo{
+    margin-left: 15px;
+}
+.footer{
+    background: black;
+}
+.leftf{
+    text-align: start;
+}
+.leftf ul li{
+    display: inline-block;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+}
+.bg-y{
+    color: yellow;
+}
+.rightf{
+    text-align: end;
+}
+.rightf p{
+    color: white;
+    display: inline-block;
+    border: 2px solid grey;
+    padding: 10px;
+    margin-left:10px ;
+    box-shadow: 0 0 10px grey ;
+    border-radius: 50%;
+}
+.bg.yw{
+    background-color: red;
+    border: 5px solid red;    
+}
