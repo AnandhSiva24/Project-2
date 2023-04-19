@@ -72,8 +72,10 @@ h1{
 }
 .pos-abs{
     position: absolute;
-    top: 70px;
-    left: 250px;
+    top: calc(50px - -3%);
+    left: calc(70px - -27%);
+    /* top: 70px;
+    left: 250px; */
 }
 .pos-abs1{
     position: absolute;
