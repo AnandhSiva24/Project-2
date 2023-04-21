@@ -44,3 +44,9 @@ body{
 .dib ul li{
     display: inline-block;
 }
+.pt-10{
+    padding-top: 20px;
+}
+.pb-10{
+    padding-bottom: 20px;
+}

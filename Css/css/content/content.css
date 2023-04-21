@@ -1,13 +1,13 @@
 
 .container3{
-    background-color: rgba(128, 128, 128, 0.26);
+    background-color: rgba(54, 52, 52, 0.664);
     margin: auto;
     position: relative;
 }
 .container3 h3{
-    font-size: 30px;
+    font-size: 40px;
     font-style: italic;
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 10px;
     margin-bottom: 0;
 }
@@ -21,6 +21,7 @@ button{
     color: yellow;
     font-size: 15px;
 }
+
 .l1{
     text-align:left;
 }
@@ -126,7 +127,7 @@ span{
     margin-top: 30px;
 }
 .grey{
-    background-color: gray;
+    background-color: rgb(224, 221, 221);
     padding: 3px;
     border-radius: 20%;
 }
@@ -190,7 +191,7 @@ span{
     border-left:100vw transparent solid;
     border-right: 100vw yellow transparent;
     border-top: 120px transparent solid;
-    border-bottom: 100px  rgba(128, 128, 128, 0.26) solid;
+    border-bottom: 100px  rgba(54, 52, 52, 0.664) solid;
     left: -17px;
     top: -220px;
 }
@@ -203,11 +204,53 @@ span{
     /* transform:rotate(5deg); */
     border-left:100vw transparent solid  ;
     border-right: 100vw yellow transparent;
-    border-top: 120px rgba(128, 128, 128, 0.26) solid;
+    border-top: 120px rgba(54, 52, 52, 0.664) solid;
     border-bottom: 100px aqua transparent;
-    top: 496px;
-    left:-18px;
+    top: 546px;
+    left:-17px;
 
+}
+.bgi{
+    /* max-width: 100%; */
+    width: 35%;
+    /* min-height: 300px; */
+    border-radius: 16px;
+    position: relative;
+    transform: scale(1.1);
+
+}
+.bgi1{
+    position: absolute;
+    left: 28%;
+    width: 24%;
+    top: 32%;
+    transform: scale(1.2);
+    border-radius: 20px;
+}
+.blueline{
+    border: 2px solid blue;
+    margin-left: 5px;
+    transform: rotate(45deg);
+    left: 21%;
+    position: relative;
+}
+.smokecircle{
+    width: 8%;
+    height: 16%;
+    border-radius: 50%;
+    border: 2px solid sandybrown;
+    position: absolute;
+    background: sandybrown;
+    left: 60%;
+    top: 3%;
+}
+.arrow{
+    font-size: 40px;
+    font-weight: 200;
+    color: rgb(17, 128, 17);
+    position: absolute;
+    left: 45%;
+    top: 7%;
 }
 .pt{
     padding-top: 100px;
